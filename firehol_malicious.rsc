@@ -1,5 +1,5 @@
 # FireHOL Level1 blacklist converted to RouterOS format
-# Generated on Mon Apr 14 09:29:19 PM CST 2025
+# Generated on Mon Apr 14 11:04:51 PM CST 2025
 # Source: https://iplists.firehol.org/files/firehol_level1.netset
 
 /ip firewall address-list remove [find list=malicious]
