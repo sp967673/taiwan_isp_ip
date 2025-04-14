@@ -1,5 +1,5 @@
 # FireHOL Level1 blacklist converted to RouterOS format
-# Generated on Tue Apr 15 12:00:01 AM CST 2025
+# Generated on Tue Apr 15 06:00:02 AM CST 2025
 # Source: https://iplists.firehol.org/files/firehol_level1.netset
 
 /ip firewall address-list remove [find list=malicious]
@@ -258,6 +258,7 @@
 /ip firewall address-list add list=malicious address=61.177.172.0/23
 /ip firewall address-list add list=malicious address=62.60.186.0/24
 /ip firewall address-list add list=malicious address=62.60.188.0/22
+/ip firewall address-list add list=malicious address=62.60.208.0/24
 /ip firewall address-list add list=malicious address=62.60.224.0/24
 /ip firewall address-list add list=malicious address=62.60.226.0/24
 /ip firewall address-list add list=malicious address=62.72.185.0/24
@@ -334,6 +335,7 @@
 /ip firewall address-list add list=malicious address=80.94.95.0/24
 /ip firewall address-list add list=malicious address=80.208.192.0/20
 /ip firewall address-list add list=malicious address=80.244.11.0/24
+/ip firewall address-list add list=malicious address=81.30.107.0/24
 /ip firewall address-list add list=malicious address=81.94.150.0/24
 /ip firewall address-list add list=malicious address=81.94.159.0/24
 /ip firewall address-list add list=malicious address=82.115.223.0/24
@@ -1057,6 +1059,7 @@
 /ip firewall address-list add list=malicious address=104.244.56.0/21
 /ip firewall address-list add list=malicious address=104.245.240.0/22
 /ip firewall address-list add list=malicious address=106.95.0.0/16
+/ip firewall address-list add list=malicious address=107.150.0.0/24
 /ip firewall address-list add list=malicious address=107.155.224.0/22
 /ip firewall address-list add list=malicious address=107.182.240.0/20
 /ip firewall address-list add list=malicious address=109.107.146.0/24
@@ -1279,6 +1282,7 @@
 /ip firewall address-list add list=malicious address=155.66.0.0/16
 /ip firewall address-list add list=malicious address=155.71.0.0/16
 /ip firewall address-list add list=malicious address=155.73.0.0/16
+/ip firewall address-list add list=malicious address=155.94.155.0/24
 /ip firewall address-list add list=malicious address=155.108.0.0/16
 /ip firewall address-list add list=malicious address=155.159.0.0/16
 /ip firewall address-list add list=malicious address=155.233.0.0/16
@@ -1406,6 +1410,7 @@
 /ip firewall address-list add list=malicious address=167.74.0.0/18
 /ip firewall address-list add list=malicious address=167.82.144.0/20
 /ip firewall address-list add list=malicious address=167.158.0.0/16
+/ip firewall address-list add list=malicious address=167.160.161.0/24
 /ip firewall address-list add list=malicious address=167.175.0.0/16
 /ip firewall address-list add list=malicious address=167.224.0.0/19
 /ip firewall address-list add list=malicious address=167.224.48.0/21
@@ -2019,6 +2024,7 @@
 /ip firewall address-list add list=malicious address=198.51.100.0/24
 /ip firewall address-list add list=malicious address=198.51.186.0/24
 /ip firewall address-list add list=malicious address=198.54.232.0/24
+/ip firewall address-list add list=malicious address=198.55.98.0/24
 /ip firewall address-list add list=malicious address=198.55.122.0/24
 /ip firewall address-list add list=malicious address=198.56.16.0/21
 /ip firewall address-list add list=malicious address=198.56.24.0/23
@@ -2173,7 +2179,6 @@
 /ip firewall address-list add list=malicious address=200.71.124.0/22
 /ip firewall address-list add list=malicious address=200.189.44.0/22
 /ip firewall address-list add list=malicious address=200.226.128.0/17
-/ip firewall address-list add list=malicious address=200.234.128.0/18
 /ip firewall address-list add list=malicious address=201.148.168.0/22
 /ip firewall address-list add list=malicious address=201.169.0.0/16
 /ip firewall address-list add list=malicious address=202.0.64.0/24
@@ -4286,7 +4291,6 @@
 /ip firewall address-list add list=malicious address=210.56.48.0/21
 /ip firewall address-list add list=malicious address=210.56.144.0/21
 /ip firewall address-list add list=malicious address=210.57.128.0/18
-/ip firewall address-list add list=malicious address=210.75.128.0/19
 /ip firewall address-list add list=malicious address=210.87.75.0/24
 /ip firewall address-list add list=malicious address=210.88.56.0/21
 /ip firewall address-list add list=malicious address=210.88.234.0/23
@@ -4330,4 +4334,4 @@
 /ip firewall address-list add list=malicious address=223.254.0.0/16
 /ip firewall address-list add list=malicious address=224.0.0.0/3
 
-# Total IPs added: 4325
+# Total IPs added: 4329
