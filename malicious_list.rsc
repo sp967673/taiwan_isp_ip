@@ -1,6 +1,5 @@
-# RouterOS v7 Malicious Address List
-# Generated on: Tue Apr 15 08:56:23 AM CST 2025
-# Contains bogon and firehol lists
+# RouterOS v7 Malicious Address List - Firehol Level1
+# Generated on: Tue Apr 15 09:30:20 AM CST 2025
 
 /ip firewall address-list add list=malicious address=0.0.0.0/8
 /ip firewall address-list add list=malicious address=1.10.16.0/20
