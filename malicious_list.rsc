@@ -1238,7 +1238,8 @@ add address="163.50.0.0/16" list=malicious
 add address="163.52.0.0/16" list=malicious
 add address="163.53.220.0/22" list=malicious
 add address="163.53.247.0/24" list=malicious
-add address="163.61.160.0/20" list=malicious
+add address="163.61.160.0/22" list=malicious
+add address="163.61.168.0/21" list=malicious
 add address="163.61.194.0/24" list=malicious
 add address="163.61.205.0/24" list=malicious
 add address="163.123.191.0/24" list=malicious
