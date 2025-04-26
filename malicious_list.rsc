@@ -1780,7 +1780,6 @@ add address="195.177.92.0/24" list=malicious
 add address="195.177.95.0/24" list=malicious
 add address="195.178.110.0/24" list=malicious
 add address="195.181.224.0/20" list=malicious
-add address="195.184.76.0/24" list=malicious
 add address="195.200.64.0/23" list=malicious
 add address="195.210.96.0/19" list=malicious
 add address="195.211.190.0/23" list=malicious
