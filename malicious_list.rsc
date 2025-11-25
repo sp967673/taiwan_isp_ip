@@ -1,10 +1,11 @@
 # RouterOS Script to add malicious IPs to address list
-# Generated at Tue Nov 25 10:48:57 PM CST 2025
+# Generated at Wed Nov 26 12:02:54 AM CST 2025
 # Total IPs: 4550
 # Excluded networks: 192.168.0.0/16 10.0.0.0/8
 
 /ip firewall address-list remove [find list=malicious]
 
+/ip firewall address-list
 add address="0.0.0.0/8" list=malicious
 add address="1.10.16.0/20" list=malicious
 add address="1.19.0.0/16" list=malicious
