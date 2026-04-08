@@ -1,6 +1,6 @@
 # RouterOS Script to add malicious IPs to address list
-# Generated at Wed Apr  8 02:06:02 AM CST 2026
-# Total IPs: 4571
+# Generated at Thu Apr  9 02:06:02 AM CST 2026
+# Total IPs: 4572
 # Excluded networks: 192.168.0.0/16 10.0.0.0/8
 
 /interface pppoe-client disable [find]
@@ -1181,6 +1181,7 @@ add address="103.198.4.0/22" list=malicious
 add address="103.198.36.0/22" list=malicious
 add address="103.198.88.0/22" list=malicious
 add address="103.198.186.0/24" list=malicious
+add address="103.200.28.0/22" list=malicious
 add address="103.202.218.0/24" list=malicious
 add address="103.202.224.0/23" list=malicious
 add address="103.203.148.0/22" list=malicious
