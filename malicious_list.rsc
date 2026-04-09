@@ -1,5 +1,5 @@
 # RouterOS Script to add malicious IPs to address list
-# Generated at Thu Apr  9 02:06:02 AM CST 2026
+# Generated at Fri Apr 10 02:06:02 AM CST 2026
 # Total IPs: 4572
 # Excluded networks: 192.168.0.0/16 10.0.0.0/8
 
@@ -162,6 +162,7 @@ add address="45.13.37.0/24" list=malicious
 add address="45.13.213.0/24" list=malicious
 add address="45.15.21.0/24" list=malicious
 add address="45.41.128.0/22" list=malicious
+add address="45.42.80.0/20" list=malicious
 add address="45.64.52.0/22" list=malicious
 add address="45.64.74.0/23" list=malicious
 add address="45.65.32.0/22" list=malicious
@@ -1290,6 +1291,7 @@ add address="104.152.52.0/24" list=malicious
 add address="104.167.19.0/24" list=malicious
 add address="104.167.25.0/24" list=malicious
 add address="104.193.228.0/22" list=malicious
+add address="104.232.96.0/20" list=malicious
 add address="104.239.66.0/24" list=malicious
 add address="104.244.56.0/21" list=malicious
 add address="104.244.80.0/22" list=malicious
@@ -1833,8 +1835,6 @@ add address="185.169.4.0/24" list=malicious
 add address="185.189.73.0/24" list=malicious
 add address="185.192.36.0/22" list=malicious
 add address="185.196.8.0/22" list=malicious
-add address="185.196.8.0/23" list=malicious
-add address="185.196.10.0/24" list=malicious
 add address="185.208.156.0/22" list=malicious
 add address="185.212.240.0/22" list=malicious
 add address="185.215.132.0/22" list=malicious
