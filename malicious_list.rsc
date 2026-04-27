@@ -1,6 +1,6 @@
 # RouterOS Script to add malicious IPs to address list
-# Generated at Mon Apr 27 02:06:03 AM CST 2026
-# Total IPs: 4588
+# Generated at Tue Apr 28 02:06:02 AM CST 2026
+# Total IPs: 4596
 # Excluded networks: 192.168.0.0/16 10.0.0.0/8
 
 /interface pppoe-client disable [find]
@@ -59,6 +59,7 @@ add address="27.50.63.0/24" list=malicious
 add address="27.98.192.0/20" list=malicious
 add address="27.99.128.0/17" list=malicious
 add address="27.100.4.0/22" list=malicious
+add address="27.100.28.0/22" list=malicious
 add address="27.112.32.0/19" list=malicious
 add address="27.112.96.0/22" list=malicious
 add address="27.116.56.0/22" list=malicious
@@ -363,6 +364,11 @@ add address="81.28.110.0/24" list=malicious
 add address="81.30.107.0/24" list=malicious
 add address="81.94.150.0/24" list=malicious
 add address="81.94.159.0/24" list=malicious
+add address="82.38.101.0/24" list=malicious
+add address="82.38.103.0/24" list=malicious
+add address="82.38.104.0/24" list=malicious
+add address="82.38.107.0/24" list=malicious
+add address="82.38.132.0/24" list=malicious
 add address="82.135.156.0/23" list=malicious
 add address="82.135.228.0/22" list=malicious
 add address="83.97.73.0/24" list=malicious
@@ -533,6 +539,7 @@ add address="101.193.116.0/22" list=malicious
 add address="101.193.120.0/22" list=malicious
 add address="101.193.124.0/22" list=malicious
 add address="101.203.128.0/19" list=malicious
+add address="102.129.152.0/24" list=malicious
 add address="102.135.91.0/24" list=malicious
 add address="102.192.0.0/13" list=malicious
 add address="102.200.0.0/15" list=malicious
@@ -4533,6 +4540,7 @@ add address="209.63.8.0/21" list=malicious
 add address="209.66.0.0/18" list=malicious
 add address="209.66.128.0/19" list=malicious
 add address="209.79.220.0/22" list=malicious
+add address="209.92.160.0/20" list=malicious
 add address="209.95.64.0/19" list=malicious
 add address="209.95.192.0/19" list=malicious
 add address="209.120.205.0/24" list=malicious
