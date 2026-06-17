@@ -1,5 +1,5 @@
 # RouterOS Script to add malicious IPs to address list
-# Generated at Thu Jun 18 02:06:01 AM CST 2026
+# Generated at Thu Jun 18 07:32:58 AM CST 2026
 # Total IPs: 4724
 # Excluded networks: 192.168.0.0/16 10.0.0.0/8
 
