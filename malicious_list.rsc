@@ -1,5 +1,6 @@
 /interface pppoe-client disable [find];
 /ip firewall address-list remove [find list=malicious];
+/ip firewall address-list;
 # Add malicious IP addresses to RouterOS address list
 add address="0.0.0.0/8" list=malicious
 add address="1.10.16.0/20" list=malicious
