@@ -1,5 +1,5 @@
 # RouterOS Script to add malicious IPs to address list
-# Generated at Sat Aug 15 06:05:20 AM CST 2026
+# Generated at Sat Aug 15 06:08:25 AM CST 2026
 /interface pppoe-client disable [find]
 /ip firewall address-list remove [find list=malicious]
 /ip firewall address-list
