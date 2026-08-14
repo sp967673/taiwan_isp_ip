@@ -451,7 +451,6 @@ add address="94.26.105.0/24" list=malicious
 add address="94.74.164.0/24" list=malicious
 add address="94.74.191.0/24" list=malicious
 add address="94.103.188.0/24" list=malicious
-add address="94.141.122.0/24" list=malicious
 add address="94.154.35.0/24" list=malicious
 add address="94.154.43.0/24" list=malicious
 add address="94.154.46.0/24" list=malicious
