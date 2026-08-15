@@ -1,5 +1,5 @@
 # Malicious IP address-list update
-# Generated : 2026-08-15 14:45:26 UTC
+# Generated : 2026-08-15 18:06:04 UTC
 # Source    : FireHOL Level1 + Spamhaus DROP
 # Entries   : 3956
 
@@ -285,7 +285,6 @@ add address="62.60.226.0/24" list=malicious
 add address="62.204.41.0/24" list=malicious
 add address="63.80.8.0/22" list=malicious
 add address="64.15.0.0/20" list=malicious
-add address="64.62.156.0/24" list=malicious
 add address="64.62.197.0/24" list=malicious
 add address="64.77.128.0/18" list=malicious
 add address="64.89.160.0/22" list=malicious
@@ -408,6 +407,7 @@ add address="89.46.47.0/24" list=malicious
 add address="89.106.83.0/24" list=malicious
 add address="89.190.156.0/24" list=malicious
 add address="91.92.40.0/24" list=malicious
+add address="91.92.47.0/24" list=malicious
 add address="91.92.240.0/22" list=malicious
 add address="91.188.254.0/24" list=malicious
 add address="91.196.152.0/24" list=malicious
