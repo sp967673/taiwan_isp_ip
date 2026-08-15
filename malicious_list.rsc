@@ -1,5 +1,5 @@
 # Malicious IP address-list update
-# Generated : 2026-08-15 14:43:44 UTC
+# Generated : 2026-08-15 14:45:26 UTC
 # Source    : FireHOL Level1 + Spamhaus DROP
 # Entries   : 3956
 
