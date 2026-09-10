@@ -1,7 +1,7 @@
 # Malicious IP address-list update
-# Generated : 2026-09-09 18:06:04 UTC
+# Generated : 2026-09-10 18:06:04 UTC
 # Source    : FireHOL Level1 + Spamhaus DROP
-# Entries   : 3997
+# Entries   : 4009
 
 /interface pppoe-client disable [find]
 :delay 2s
@@ -247,11 +247,10 @@ add address="45.153.34.0/24" list=malicious
 add address="45.154.98.0/24" list=malicious
 add address="45.154.244.0/24" list=malicious
 add address="45.156.87.0/24" list=malicious
-add address="45.156.128.0/24" list=malicious
+add address="45.156.129.0/24" list=malicious
 add address="45.170.247.0/24" list=malicious
 add address="45.192.178.0/23" list=malicious
 add address="45.192.211.0/24" list=malicious
-add address="45.194.67.0/24" list=malicious
 add address="45.194.92.0/24" list=malicious
 add address="45.197.176.0/22" list=malicious
 add address="45.221.116.0/22" list=malicious
@@ -297,6 +296,7 @@ add address="62.204.41.0/24" list=malicious
 add address="63.80.8.0/22" list=malicious
 add address="64.15.0.0/20" list=malicious
 add address="64.62.156.0/24" list=malicious
+add address="64.62.197.0/24" list=malicious
 add address="64.77.128.0/18" list=malicious
 add address="64.89.160.0/22" list=malicious
 add address="64.92.224.0/20" list=malicious
@@ -425,6 +425,7 @@ add address="91.92.42.0/24" list=malicious
 add address="91.92.47.0/24" list=malicious
 add address="91.92.240.0/22" list=malicious
 add address="91.188.254.0/24" list=malicious
+add address="91.196.152.0/24" list=malicious
 add address="91.200.133.0/24" list=malicious
 add address="91.200.164.0/22" list=malicious
 add address="91.202.233.0/24" list=malicious
@@ -554,6 +555,7 @@ add address="103.24.0.0/22" list=malicious
 add address="103.24.15.0/24" list=malicious
 add address="103.24.44.0/23" list=malicious
 add address="103.24.100.0/22" list=malicious
+add address="103.25.4.0/22" list=malicious
 add address="103.25.88.0/22" list=malicious
 add address="103.25.96.0/22" list=malicious
 add address="103.27.121.0/24" list=malicious
@@ -577,8 +579,10 @@ add address="103.37.118.0/24" list=malicious
 add address="103.38.112.0/22" list=malicious
 add address="103.38.145.0/24" list=malicious
 add address="103.38.148.0/23" list=malicious
+add address="103.38.189.0/24" list=malicious
 add address="103.38.208.0/23" list=malicious
 add address="103.39.6.0/24" list=malicious
+add address="103.39.54.0/24" list=malicious
 add address="103.39.108.0/22" list=malicious
 add address="103.39.249.0/24" list=malicious
 add address="103.40.8.0/24" list=malicious
@@ -593,6 +597,7 @@ add address="103.43.180.0/22" list=malicious
 add address="103.44.20.0/22" list=malicious
 add address="103.44.208.0/22" list=malicious
 add address="103.47.61.0/24" list=malicious
+add address="103.47.152.0/24" list=malicious
 add address="103.47.188.0/22" list=malicious
 add address="103.48.14.0/23" list=malicious
 add address="103.48.22.0/23" list=malicious
@@ -701,7 +706,7 @@ add address="103.100.124.0/22" list=malicious
 add address="103.100.156.0/22" list=malicious
 add address="103.101.4.0/22" list=malicious
 add address="103.101.64.0/24" list=malicious
-add address="103.101.94.0/24" list=malicious
+add address="103.101.93.0/24" list=malicious
 add address="103.102.39.0/24" list=malicious
 add address="103.102.236.0/22" list=malicious
 add address="103.103.6.0/23" list=malicious
@@ -766,6 +771,7 @@ add address="103.122.223.0/24" list=malicious
 add address="103.123.0.0/22" list=malicious
 add address="103.123.110.0/24" list=malicious
 add address="103.123.216.0/22" list=malicious
+add address="103.124.9.0/24" list=malicious
 add address="103.124.158.0/23" list=malicious
 add address="103.125.0.0/22" list=malicious
 add address="103.126.188.0/22" list=malicious
@@ -779,6 +785,7 @@ add address="103.129.156.0/22" list=malicious
 add address="103.130.28.0/22" list=malicious
 add address="103.130.152.0/24" list=malicious
 add address="103.130.188.0/23" list=malicious
+add address="103.131.30.0/23" list=malicious
 add address="103.132.44.0/22" list=malicious
 add address="103.132.132.0/22" list=malicious
 add address="103.133.136.0/23" list=malicious
@@ -956,6 +963,7 @@ add address="103.178.92.0/23" list=malicious
 add address="103.178.98.0/23" list=malicious
 add address="103.178.250.0/23" list=malicious
 add address="103.179.6.0/23" list=malicious
+add address="103.179.28.0/23" list=malicious
 add address="103.179.80.0/23" list=malicious
 add address="103.179.113.0/24" list=malicious
 add address="103.179.133.0/24" list=malicious
@@ -1062,6 +1070,7 @@ add address="103.187.60.0/23" list=malicious
 add address="103.187.72.0/23" list=malicious
 add address="103.187.76.0/23" list=malicious
 add address="103.187.105.0/24" list=malicious
+add address="103.187.115.0/24" list=malicious
 add address="103.187.144.0/23" list=malicious
 add address="103.187.148.0/23" list=malicious
 add address="103.187.172.0/22" list=malicious
@@ -1224,6 +1233,7 @@ add address="103.242.183.0/24" list=malicious
 add address="103.242.210.0/23" list=malicious
 add address="103.243.68.0/22" list=malicious
 add address="103.243.111.0/24" list=malicious
+add address="103.243.233.0/24" list=malicious
 add address="103.243.240.0/22" list=malicious
 add address="103.244.40.0/22" list=malicious
 add address="103.244.194.0/23" list=malicious
@@ -1268,6 +1278,7 @@ add address="107.155.224.0/22" list=malicious
 add address="107.182.240.0/20" list=malicious
 add address="108.164.0.0/20" list=malicious
 add address="108.164.128.0/17" list=malicious
+add address="109.160.32.0/24" list=malicious
 add address="109.202.104.0/24" list=malicious
 add address="109.206.244.0/22" list=malicious
 add address="109.238.86.0/23" list=malicious
@@ -1455,6 +1466,7 @@ add address="150.10.0.0/16" list=malicious
 add address="150.22.128.0/17" list=malicious
 add address="150.25.0.0/16" list=malicious
 add address="150.107.127.0/24" list=malicious
+add address="150.107.228.0/22" list=malicious
 add address="150.129.212.0/22" list=malicious
 add address="150.242.120.0/22" list=malicious
 add address="151.131.0.0/16" list=malicious
@@ -1593,6 +1605,7 @@ add address="165.99.109.0/24" list=malicious
 add address="165.99.249.0/24" list=malicious
 add address="165.101.6.0/24" list=malicious
 add address="165.101.72.0/24" list=malicious
+add address="165.101.142.0/24" list=malicious
 add address="165.101.198.0/24" list=malicious
 add address="165.102.0.0/16" list=malicious
 add address="165.140.92.0/22" list=malicious
@@ -1649,7 +1662,6 @@ add address="172.16.0.0/12" list=malicious
 add address="172.70.206.0/23" list=malicious
 add address="172.70.214.0/23" list=malicious
 add address="172.94.9.0/24" list=malicious
-add address="172.110.223.0/24" list=malicious
 add address="172.111.128.0/17" list=malicious
 add address="172.247.38.0/24" list=malicious
 add address="173.44.0.0/19" list=malicious
@@ -1747,9 +1759,11 @@ add address="185.239.84.0/22" list=malicious
 add address="185.241.208.0/24" list=malicious
 add address="185.241.211.0/24" list=malicious
 add address="185.242.3.0/24" list=malicious
+add address="185.242.226.0/24" list=malicious
 add address="185.242.246.0/24" list=malicious
 add address="185.243.96.0/24" list=malicious
 add address="185.244.249.0/24" list=malicious
+add address="185.245.62.0/23" list=malicious
 add address="185.255.20.0/22" list=malicious
 add address="185.255.192.0/22" list=malicious
 add address="186.65.112.0/20" list=malicious
@@ -2185,7 +2199,6 @@ add address="199.33.222.0/24" list=malicious
 add address="199.34.128.0/18" list=malicious
 add address="199.38.0.0/21" list=malicious
 add address="199.38.252.0/22" list=malicious
-add address="199.45.154.0/24" list=malicious
 add address="199.59.8.0/21" list=malicious
 add address="199.67.8.0/21" list=malicious
 add address="199.67.96.0/19" list=malicious
@@ -3114,8 +3127,7 @@ add address="203.24.154.0/23" list=malicious
 add address="203.24.165.0/24" list=malicious
 add address="203.24.168.0/23" list=malicious
 add address="203.24.173.0/24" list=malicious
-add address="203.24.176.0/23" list=malicious
-add address="203.24.180.0/23" list=malicious
+add address="203.24.176.0/22" list=malicious
 add address="203.24.184.0/23" list=malicious
 add address="203.24.188.0/23" list=malicious
 add address="203.24.194.0/23" list=malicious
@@ -3533,7 +3545,7 @@ add address="203.34.96.0/24" list=malicious
 add address="203.34.98.0/23" list=malicious
 add address="203.34.102.0/23" list=malicious
 add address="203.34.105.0/24" list=malicious
-add address="203.34.108.0/24" list=malicious
+add address="203.34.107.0/24" list=malicious
 add address="203.34.112.0/24" list=malicious
 add address="203.34.120.0/22" list=malicious
 add address="203.34.126.0/23" list=malicious
