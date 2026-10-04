@@ -1,7 +1,7 @@
 # Malicious IP address-list update (Blue-Green Deployment)
-# Generated : 2026-10-04 08:29:10 UTC
+# Generated : 2026-10-04 18:06:04 UTC
 # Source    : FireHOL Level1 + Spamhaus DROP
-# Entries   : 4643
+# Entries   : 4642
 
 :global currentActive [/ip firewall raw get [find comment="RAW-1: Drop malicious IPs"] src-address-list]
 :global targetList "malicious_a"
@@ -356,7 +356,6 @@ add address="85.8.248.0/21" list=$targetList
 add address="85.11.167.0/24" list=$targetList
 add address="85.114.120.0/21" list=$targetList
 add address="85.121.4.0/24" list=$targetList
-add address="85.122.129.0/24" list=$targetList
 add address="85.158.149.0/24" list=$targetList
 add address="85.203.26.0/24" list=$targetList
 add address="85.203.46.0/24" list=$targetList
