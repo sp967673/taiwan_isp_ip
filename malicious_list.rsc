@@ -1,7 +1,7 @@
 # Malicious IP address-list update (Blue-Green Deployment)
-# Generated : 2026-10-10 18:06:04 UTC
+# Generated : 2026-10-11 18:06:04 UTC
 # Source    : FireHOL Level1 + Spamhaus DROP
-# Entries   : 4636
+# Entries   : 4634
 
 :global currentActive [/ip firewall raw get [find comment="RAW-1: Drop malicious IPs"] src-address-list]
 :global targetList "malicious_a"
@@ -32,7 +32,6 @@ add address="5.175.169.0/24" list=$targetList
 add address="5.175.189.0/24" list=$targetList
 add address="5.183.60.0/22" list=$targetList
 add address="5.188.236.0/23" list=$targetList
-add address="5.226.140.0/24" list=$targetList
 add address="5.230.201.0/24" list=$targetList
 add address="5.231.63.0/24" list=$targetList
 add address="5.252.153.0/24" list=$targetList
@@ -235,7 +234,6 @@ add address="45.141.84.0/22" list=$targetList
 add address="45.141.215.0/24" list=$targetList
 add address="45.142.152.0/22" list=$targetList
 add address="45.142.193.0/24" list=$targetList
-add address="45.143.158.0/24" list=$targetList
 add address="45.144.212.0/24" list=$targetList
 add address="45.148.10.0/24" list=$targetList
 add address="45.150.34.0/24" list=$targetList
@@ -301,18 +299,17 @@ add address="64.77.128.0/18" list=$targetList
 add address="64.89.160.0/22" list=$targetList
 add address="64.92.224.0/20" list=$targetList
 add address="64.116.200.0/21" list=$targetList
+add address="64.205.72.0/24" list=$targetList
 add address="64.250.144.0/20" list=$targetList
-add address="65.49.1.0/24" list=$targetList
 add address="65.166.249.0/24" list=$targetList
 add address="65.205.64.0/22" list=$targetList
 add address="65.216.208.0/21" list=$targetList
-add address="66.132.159.0/24" list=$targetList
 add address="66.132.172.0/24" list=$targetList
 add address="66.132.186.0/24" list=$targetList
-add address="66.132.195.0/24" list=$targetList
 add address="66.132.224.0/24" list=$targetList
 add address="66.198.225.0/24" list=$targetList
 add address="67.219.208.0/20" list=$targetList
+add address="69.5.169.0/24" list=$targetList
 add address="69.40.207.0/24" list=$targetList
 add address="69.165.0.0/20" list=$targetList
 add address="74.114.148.0/22" list=$targetList
@@ -325,6 +322,7 @@ add address="76.74.60.0/24" list=$targetList
 add address="76.74.78.0/24" list=$targetList
 add address="77.36.112.0/21" list=$targetList
 add address="77.47.242.0/24" list=$targetList
+add address="77.67.26.0/24" list=$targetList
 add address="77.81.84.0/23" list=$targetList
 add address="77.81.86.0/24" list=$targetList
 add address="77.81.89.0/24" list=$targetList
@@ -361,10 +359,11 @@ add address="85.203.26.0/24" list=$targetList
 add address="85.203.46.0/24" list=$targetList
 add address="85.208.212.0/22" list=$targetList
 add address="85.209.204.0/22" list=$targetList
-add address="85.217.149.0/24" list=$targetList
+add address="85.217.140.0/24" list=$targetList
 add address="85.217.216.0/22" list=$targetList
 add address="85.239.144.0/24" list=$targetList
 add address="85.239.147.0/24" list=$targetList
+add address="86.38.187.0/24" list=$targetList
 add address="86.54.25.0/24" list=$targetList
 add address="86.104.222.0/23" list=$targetList
 add address="86.104.224.0/23" list=$targetList
@@ -433,7 +432,6 @@ add address="91.92.42.0/24" list=$targetList
 add address="91.92.47.0/24" list=$targetList
 add address="91.92.240.0/22" list=$targetList
 add address="91.188.254.0/24" list=$targetList
-add address="91.196.152.0/24" list=$targetList
 add address="91.200.133.0/24" list=$targetList
 add address="91.200.164.0/22" list=$targetList
 add address="91.202.233.0/24" list=$targetList
@@ -523,7 +521,6 @@ add address="102.200.64.0/18" list=$targetList
 add address="102.200.128.0/18" list=$targetList
 add address="102.200.192.0/19" list=$targetList
 add address="102.200.224.0/20" list=$targetList
-add address="102.200.240.0/22" list=$targetList
 add address="102.201.18.0/23" list=$targetList
 add address="102.201.220.0/22" list=$targetList
 add address="102.201.224.0/22" list=$targetList
@@ -1540,7 +1537,6 @@ add address="138.125.0.0/16" list=$targetList
 add address="138.185.116.0/22" list=$targetList
 add address="138.219.172.0/22" list=$targetList
 add address="138.226.236.0/23" list=$targetList
-add address="138.226.239.0/24" list=$targetList
 add address="138.241.0.0/16" list=$targetList
 add address="138.252.71.0/24" list=$targetList
 add address="138.252.99.0/24" list=$targetList
@@ -1591,6 +1587,7 @@ add address="147.45.222.0/24" list=$targetList
 add address="147.78.224.0/22" list=$targetList
 add address="147.90.182.0/24" list=$targetList
 add address="147.119.0.0/16" list=$targetList
+add address="147.185.132.0/24" list=$targetList
 add address="148.148.0.0/16" list=$targetList
 add address="148.178.0.0/16" list=$targetList
 add address="148.185.0.0/16" list=$targetList
@@ -1631,6 +1628,7 @@ add address="155.212.238.0/24" list=$targetList
 add address="155.233.0.0/16" list=$targetList
 add address="155.249.0.0/16" list=$targetList
 add address="156.0.199.0/24" list=$targetList
+add address="156.225.1.0/24" list=$targetList
 add address="156.226.209.0/24" list=$targetList
 add address="156.234.43.0/24" list=$targetList
 add address="156.247.40.0/24" list=$targetList
@@ -1667,7 +1665,6 @@ add address="160.30.250.0/23" list=$targetList
 add address="160.65.0.0/16" list=$targetList
 add address="160.104.0.0/16" list=$targetList
 add address="160.116.0.0/15" list=$targetList
-add address="160.119.76.0/24" list=$targetList
 add address="160.121.0.0/16" list=$targetList
 add address="160.122.0.0/16" list=$targetList
 add address="160.180.0.0/16" list=$targetList
@@ -1729,7 +1726,6 @@ add address="164.6.0.0/16" list=$targetList
 add address="164.79.0.0/16" list=$targetList
 add address="164.88.0.0/16" list=$targetList
 add address="164.155.0.0/16" list=$targetList
-add address="164.163.243.0/24" list=$targetList
 add address="164.215.103.0/24" list=$targetList
 add address="165.3.0.0/16" list=$targetList
 add address="165.18.0.0/16" list=$targetList
@@ -2179,6 +2175,7 @@ add address="193.30.241.0/24" list=$targetList
 add address="193.32.66.0/23" list=$targetList
 add address="193.32.162.0/24" list=$targetList
 add address="193.46.255.0/24" list=$targetList
+add address="193.47.62.0/24" list=$targetList
 add address="193.139.0.0/16" list=$targetList
 add address="193.142.146.0/23" list=$targetList
 add address="193.143.1.0/24" list=$targetList
@@ -2214,7 +2211,6 @@ add address="195.177.92.0/24" list=$targetList
 add address="195.178.110.0/24" list=$targetList
 add address="195.178.148.0/23" list=$targetList
 add address="195.181.224.0/20" list=$targetList
-add address="195.184.76.0/24" list=$targetList
 add address="196.1.68.0/24" list=$targetList
 add address="196.1.108.0/24" list=$targetList
 add address="196.1.134.0/24" list=$targetList
@@ -2352,7 +2348,6 @@ add address="198.202.237.0/24" list=$targetList
 add address="198.204.0.0/21" list=$targetList
 add address="198.206.140.0/24" list=$targetList
 add address="198.212.132.0/24" list=$targetList
-add address="198.235.24.0/24" list=$targetList
 add address="198.235.160.0/20" list=$targetList
 add address="198.240.64.0/18" list=$targetList
 add address="198.241.64.0/18" list=$targetList
@@ -2458,7 +2453,6 @@ add address="199.254.190.0/24" list=$targetList
 add address="200.0.60.0/23" list=$targetList
 add address="200.1.0.0/22" list=$targetList
 add address="200.1.4.0/23" list=$targetList
-add address="200.1.7.0/24" list=$targetList
 add address="200.13.64.0/20" list=$targetList
 add address="200.22.0.0/16" list=$targetList
 add address="200.23.137.0/24" list=$targetList
@@ -2469,6 +2463,7 @@ add address="200.34.30.0/23" list=$targetList
 add address="200.34.135.0/24" list=$targetList
 add address="200.34.156.0/24" list=$targetList
 add address="200.71.124.0/22" list=$targetList
+add address="200.138.46.0/24" list=$targetList
 add address="200.189.44.0/22" list=$targetList
 add address="201.148.168.0/22" list=$targetList
 add address="202.0.64.0/24" list=$targetList
@@ -4329,6 +4324,7 @@ add address="203.98.72.0/24" list=$targetList
 add address="203.99.32.0/21" list=$targetList
 add address="203.99.142.0/24" list=$targetList
 add address="203.119.56.0/24" list=$targetList
+add address="203.128.0.0/23" list=$targetList
 add address="203.129.0.0/22" list=$targetList
 add address="203.132.96.0/19" list=$targetList
 add address="203.134.252.0/22" list=$targetList
@@ -4507,6 +4503,7 @@ add address="205.203.224.0/19" list=$targetList
 add address="205.207.75.0/24" list=$targetList
 add address="205.207.134.0/24" list=$targetList
 add address="205.210.29.0/24" list=$targetList
+add address="205.210.31.0/24" list=$targetList
 add address="205.210.107.0/24" list=$targetList
 add address="205.210.139.0/24" list=$targetList
 add address="205.210.171.0/24" list=$targetList
@@ -4627,6 +4624,7 @@ add address="216.93.48.0/21" list=$targetList
 add address="216.93.96.0/19" list=$targetList
 add address="216.137.144.0/20" list=$targetList
 add address="216.179.128.0/17" list=$targetList
+add address="216.180.246.0/24" list=$targetList
 add address="216.189.29.0/24" list=$targetList
 add address="216.238.36.0/22" list=$targetList
 add address="216.250.16.0/20" list=$targetList
